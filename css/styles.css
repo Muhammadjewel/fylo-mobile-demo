@@ -283,7 +283,7 @@ img {
 
 .productivity-link {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
   padding-bottom: 6px;
   border-bottom: 1px solid #62E0D9;
   color: #62E0D9;
