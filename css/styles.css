@@ -109,6 +109,10 @@ img {
   color: #fff;
 }
 
+.sitenav-link:hover {
+  color: #62E0D9;
+}
+
 /* LOGO */
 
 .logo-img {
