@@ -303,3 +303,68 @@ img {
   background-position: center center;
   box-shadow: 0px 0px 2px rgba(98, 224, 217, 0.811141);
 }
+
+/* REVIEWS */
+
+.reviews {
+  padding: 100px 0;
+}
+
+.reviews-list {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.reviews-list::before {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: -9px;
+  width: 32px;
+  height: 50px;
+  background-image: url("../img/blockquote.svg");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.review {
+  padding: 24px 20px 20px;
+  border-radius: 4px;
+  background-color: #202A3C;
+}
+
+.review:not(:last-child) {
+  padding: 24px 20px 20px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  background-color: #202A3C;
+}
+
+.review-body {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.review-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.review-person-img {
+  margin-right: 8px;
+}
+
+.review-person-name {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.review-person-position {
+  margin: 0;
+}
