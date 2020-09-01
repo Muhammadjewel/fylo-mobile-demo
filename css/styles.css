@@ -515,3 +515,15 @@ img {
   margin: 0;
   list-style-type: none;
 }
+
+.socials-item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.socials-link {
+  display: block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
