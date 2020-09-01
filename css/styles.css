@@ -86,6 +86,7 @@ img {
 
 .button {
   display: inline-block;
+  border: none;
   padding: 16px 81px;
   border-radius: 24px;
   background-color: #63E1D9;
@@ -103,6 +104,8 @@ img {
 .button-block {
   display: block;
   width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* SITENAV */
@@ -367,4 +370,42 @@ img {
 
 .review-person-position {
   margin: 0;
+}
+
+/* SIGNUP-FORM */
+
+.signup {
+  padding: 60px 0;
+}
+
+.signup-form {
+  padding: 40px 28px;
+  border-radius: 9px;
+  background-color: #1B2330;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+  text-align: center;
+}
+
+.signup-heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.signup-text {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.signup-input-group {
+  margin-bottom: 32px;
+}
+
+.signup-input {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 32px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
 }
