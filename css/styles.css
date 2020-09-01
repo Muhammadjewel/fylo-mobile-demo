@@ -250,8 +250,33 @@ img {
 .feature-name {
   margin-top: 0;
   margin-bottom: 8px;
+  font-family: "Raleway", "Open Sans", "Arial", sans-serif;
 }
 
 .feature-text {
   margin: 0;
+}
+
+/* PRODUCTIVITY */
+
+.productivity {
+  padding: 60px 0;
+}
+
+.productivity-img {
+  width: 304px;
+  height: 229px;
+}
+
+.productivity-heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Raleway", "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.productivity-text {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
